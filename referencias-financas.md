@@ -31,3 +31,26 @@
 11. YouTube. (2025). Vídeo sobre Pluggy. Disponível em: [https://www.youtube.com/watch?v=BK2acwjvyp0](https://www.youtube.com/watch?v=BK2acwjvyp0)
 
 12. Documentação Pluggy. (2025). Criando um caso de uso do zero. Disponível em: [https://docs.pluggy.ai/docs/creating-an-use-case-from-scratch](https://docs.pluggy.ai/docs/creating-an-use-case-from-scratch)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Referencias API Inter
+https://developers.inter.co/references/banking#tag/Extrato/operation/Extrato
+
+# O que é Sandbox?
+
+O Sandbox é um ambiente de teste fornecido pelo Inter para auxiliar os desenvolvedores na implementação de integrações, projetado para simular o ambiente de produção real, mas com dados fictícios específicos para testes.
+
+Esse ambiente oferece aos desenvolvedores a capacidade de desenvolver integrações, webhooks e outras funcionalidades sem precisar implementá-las no ambiente real de produção, possibilitando que os programadores testem o comportamento das integrações que construíram para simular, por exemplo, emissões de cobranças, consultas e envios para verificar se as integrações estão funcionando como o esperado, em um ambiente seguro e isolado.
+
+Em resumo, o Sandbox é um ambiente de teste crucial para garantir que as aplicações sejam desenvolvidas e integradas corretamente antes de serem implantadas em um ambiente de produção real. Ele oferece aos desenvolvedores a confiança necessária para implementar com segurança suas soluções e oferecer uma experiência ao usuário de alta qualidade, permitindo a identificação e correção de erros e problemas antes de implantar a solução no ambiente de produção.
+
+Ambiente de Produção x Ambiente Sandbox (homologação)
+
+Em um processo de desenvolvimento, é crucial entender a diferença entre um ambiente de produção e um ambiente de homologação, bem como seus objetivos e funcionalidades específicas.
+
+O ambiente de produção é onde ocorrem transações reais, envios de informações e notificações, utilizando dados pessoais reais. É o ambiente em que as soluções estão ativas e funcionando para os usuários finais.
+
+Por outro lado, o ambiente de homologação é usado para testar as mesmas soluções disponíveis no ambiente de produção, porém com dados fictícios. Seu propósito principal é permitir que os testes sejam realizados de forma segura e controlada. É possível testar, por exemplo, funcionalidades como cobrança e consulta de extrato usando dados simulados.
+
+Ao utilizar o ambiente de homologação, os desenvolvedores podem validar as soluções em um ambiente simulado sem impactar os dados e processos reais do ambiente de produção, ajudando a identificar eventuais problemas ou erros antes de colocar as soluções em produção.
