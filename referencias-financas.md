@@ -24,7 +24,7 @@
 
 ## Pluggy (Open Finance)
 
-9. Pluggy. (2025). Portal Pluggy. Disponível em: [https://meu.pluggy.ai/](https://meu.pluggy.ai/)
+9. Pluggy. (2025). Portal Pluggy. Disponível em: [https://meu.pluggy.ai/](https://meu.pluggy.ai/) [https://dashboard.pluggy.ai](https://dashboard.pluggy.ai)
 
 10. Documentação Pluggy. (2025). Introdução rápida ao Pluggy. Disponível em: [https://docs.pluggy.ai/docs/quick-pluggy-introduction](https://docs.pluggy.ai/docs/quick-pluggy-introduction)
 
