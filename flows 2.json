@@ -1,0 +1,129 @@
+[
+    {
+        "id": "835aab28cd346c2c",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "633d9aa37a9b9921",
+        "type": "http in",
+        "z": "835aab28cd346c2c",
+        "name": "",
+        "url": "/postGastosBr",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "1bbe8f18299af87f"
+            ]
+        ]
+    },
+    {
+        "id": "73cc5a6880ec8753",
+        "type": "http response",
+        "z": "835aab28cd346c2c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c59e9ce08e3acb2d",
+        "type": "cloudantplus out",
+        "z": "835aab28cd346c2c",
+        "name": "leituraBrunoM",
+        "cloudant": "5c3953e681bb046d",
+        "database": "gastos",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 480,
+        "y": 120,
+        "wires": [
+            [
+                "73cc5a6880ec8753"
+            ]
+        ]
+    },
+    {
+        "id": "d34467559b76a8fd",
+        "type": "http in",
+        "z": "835aab28cd346c2c",
+        "name": "",
+        "url": "/getGastosBr",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "b20e41aa611b0672"
+            ]
+        ]
+    },
+    {
+        "id": "27684187b93f2578",
+        "type": "http response",
+        "z": "835aab28cd346c2c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 550,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b20e41aa611b0672",
+        "type": "cloudantplus in",
+        "z": "835aab28cd346c2c",
+        "name": "leituraBrunoM",
+        "cloudant": "5c3953e681bb046d",
+        "database": "gastos",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "27684187b93f2578"
+            ]
+        ]
+    },
+    {
+        "id": "1bbe8f18299af87f",
+        "type": "split",
+        "z": "835aab28cd346c2c",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "c59e9ce08e3acb2d"
+            ]
+        ]
+    },
+    {
+        "id": "5c3953e681bb046d",
+        "type": "cloudantplus",
+        "host": "https://f1c0dcf9-5075-4061-a1f8-2f4ca596058a-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "Cred_PUC_Noite",
+        "useapikey": true
+    }
+]
