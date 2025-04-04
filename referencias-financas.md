@@ -22,6 +22,8 @@
 
 8. CoinGecko Docs. (2025). Introdução à API CoinGecko. Disponível em: [https://docs.coingecko.com/reference/introduction](https://docs.coingecko.com/reference/introduction)
 
+9. Inter Developers [https://developers.inter.co/references/banking#tag/Extrato/operation/Extrato](https://developers.inter.co/references/banking#tag/Extrato/operation/Extrato)
+
 ## Pluggy (Open Finance)
 
 9. Pluggy. (2025). Portal Pluggy. Disponível em: [https://meu.pluggy.ai/](https://meu.pluggy.ai/) [https://dashboard.pluggy.ai](https://dashboard.pluggy.ai)
