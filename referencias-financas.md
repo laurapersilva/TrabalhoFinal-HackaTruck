@@ -27,12 +27,13 @@
 ## Pluggy (Open Finance)
 
 9. Pluggy. (2025). Portal Pluggy. Disponível em: [https://meu.pluggy.ai/](https://meu.pluggy.ai/) [https://dashboard.pluggy.ai](https://dashboard.pluggy.ai)
+    [https://dashboard.pluggy.ai/settings] (https://dashboard.pluggy.ai/settings)
 
-10. Documentação Pluggy. (2025). Introdução rápida ao Pluggy. Disponível em: [https://docs.pluggy.ai/docs/quick-pluggy-introduction](https://docs.pluggy.ai/docs/quick-pluggy-introduction)
+11. Documentação Pluggy. (2025). Introdução rápida ao Pluggy. Disponível em: [https://docs.pluggy.ai/docs/quick-pluggy-introduction](https://docs.pluggy.ai/docs/quick-pluggy-introduction)
 
-11. YouTube. (2025). Vídeo sobre Pluggy. Disponível em: [https://www.youtube.com/watch?v=BK2acwjvyp0](https://www.youtube.com/watch?v=BK2acwjvyp0)
+12. YouTube. (2025). Vídeo sobre Pluggy. Disponível em: [https://www.youtube.com/watch?v=BK2acwjvyp0](https://www.youtube.com/watch?v=BK2acwjvyp0)
 
-12. Documentação Pluggy. (2025). Criando um caso de uso do zero. Disponível em: [https://docs.pluggy.ai/docs/creating-an-use-case-from-scratch](https://docs.pluggy.ai/docs/creating-an-use-case-from-scratch)
+13. Documentação Pluggy. (2025). Criando um caso de uso do zero. Disponível em: [https://docs.pluggy.ai/docs/creating-an-use-case-from-scratch](https://docs.pluggy.ai/docs/creating-an-use-case-from-scratch)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
